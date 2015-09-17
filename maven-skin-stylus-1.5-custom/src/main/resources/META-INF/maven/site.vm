@@ -290,8 +290,12 @@
       ${currentYear}
     #end
 ##
-    #if ( ${project.organization} && ${project.organization.name} )
-      ${project.organization.name}
+    #if ( ${project.organization} )
+      #if ( ${project.organization.name} && ${project.organization.url} )
+          <a href="${project.organization.url}">${project.organization.name}</a>
+      #elseif ( ${project.organization.name} )
+        ${project.organization.name}
+      #end
     #end
   #end
 #end
@@ -540,8 +544,7 @@
     </div>
     <div id="footer">
       <div class="xright">
-        &#169;#copyright()#publishDate( "bottom" $decoration.publishDate $decoration.version ) - <a href="http://maven.apache.org/privacy-policy.html">Privacy Policy</a>.
-        Apache Maven, Maven, Apache, the Apache feather logo, and the Apache Maven project logos are trademarks of The Apache Software Foundation.
+      	Copyright &copy;#copyright()
       </div>
       <div class="clear">
         <hr/>
