@@ -2,11 +2,49 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>net.sulea.cristian</groupId>
+
+	<parent>
+		<groupId>net.sulea.cristian</groupId>
+		<artifactId>jatoo</artifactId>
+		<!-- <relativePath>../../jatoo/jatoo/pom.xml</relativePath> -->
+		<version>2.2</version>
+	</parent>
+
 	<artifactId>maven-skin-stylus-1.5-custom</artifactId>
+	<packaging>jar</packaging>
+
+
 	<version>1.2</version>
 
-	<name>Customized Maven Stylus Skin (based on v.1.5)</name>
-	<description>Customized Maven Stylus Skin (based on v.1.5)</description>
+
+	<name>Customized v.1.5 Maven Stylus Skin</name>
+	<description>A customization of v.1.5 Maven Stylus Skin.</description>
+	<url>http://cristian.sulea.net/projects/maven-skin-stylus-1.5-custom/</url>
+
+	<inceptionYear>2015</inceptionYear>
+
+
+	<scm>
+		<connection>scm:git:git@github.com:cristian-sulea/maven-skin-stylus-1.5-custom.git</connection>
+		<developerConnection>scm:git:git@github.com:cristian-sulea/maven-skin-stylus-1.5-custom.git</developerConnection>
+		<url>https://github.com/cristian-sulea/maven-skin-stylus-1.5-custom</url>
+	</scm>
+
+
+	<developers>
+		<developer>
+			<id>cristian.sulea</id>
+			<name>Cristian Sulea</name>
+			<email>cristian.sulea.79@gmail.com</email>
+			<url>http://cristian.sulea.net</url>
+			<roles>
+				<role>owner</role>
+				<role>architect</role>
+				<role>developer</role>
+			</roles>
+			<timezone>+3</timezone>
+		</developer>
+	</developers>
+
 
 </project>
