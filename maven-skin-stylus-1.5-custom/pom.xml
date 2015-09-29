@@ -6,15 +6,15 @@
 	<parent>
 		<groupId>net.sulea.cristian</groupId>
 		<artifactId>jatoo</artifactId>
-		<relativePath>../../jatoo/jatoo/pom.xml</relativePath>
-		<version>2.3-SNAPSHOT</version>
+<!-- 		<relativePath>../../jatoo/jatoo/pom.xml</relativePath> -->
+		<version>2.3</version>
 	</parent>
 
 	<artifactId>maven-skin-stylus-1.5-custom</artifactId>
 	<packaging>jar</packaging>
 
 
-	<version>1.3-SNAPSHOT</version>
+	<version>1.3</version>
 
 
 	<name>Customized v.1.5 Maven Stylus Skin</name>
